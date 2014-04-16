@@ -1,0 +1,24 @@
+{
+  "name": "PartyAnimal",
+  "version": "0.0.0",
+  "description": "A tool for performing coordinated scale testing.",
+  "main": "director.js",
+  "dependencies": {
+    "pubnub": "~3.6.2",
+    "request": "~2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/McTiernanSoftware/PartyAnimal.git"
+  },
+  "author": "Mike McTiernan",
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/McTiernanSoftware/PartyAnimal/issues"
+  },
+  "homepage": "https://github.com/McTiernanSoftware/PartyAnimal"
+}
