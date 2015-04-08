@@ -13,7 +13,7 @@ clarity and concision.
 Why Did You Build This?
 -----------------------
 
-Yahoo!7 FANGO is hosted on Amazon Web Services and relies on Elastic Load
+I had a client hosted on Amazon Web Services that relied on Elastic Load
 Balancers to spread load across the 8+ app server instances. The tricky thing
 about Elastic Load Balancers (or ELBs) is that they're actually quite limited
 in terms of how many requests they can handle *unless* the ELB has been primed
@@ -124,3 +124,11 @@ The Receiver script will send back very basic reports that include the number
 of successful requests, the number of failed requests, and the total time to
 complete the requests. The Director will print these to STDOUT as well as write
 them to `./results.log`.
+
+
+Why Does Some of This Code Look Bad / It's Poorly Documented / Whatev.
+----------------------------------------------------------------------
+
+Honestly, I built this as a tool for myself and it sat around for a while after
+I wrote it because I simply didn't have time to fix it up. So yeah, now that I
+have a little free time on my hands, I decided to toss it up here for public use.
