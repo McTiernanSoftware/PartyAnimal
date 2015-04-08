@@ -2,13 +2,9 @@ PartyAnimal
 ===========
 
 A tool for scale testing web services by mimicking user behaviors. Originally,
-this tool was used specifically for testing the Yahoo!7 FANGO APIs and the
+this tool was used specifically for testing mobile application-to-remote-API interactions and the
 receivers would run various scripts that mimicked their user archetypes ("power
-user", "chatterbug", etc.). The scripts would register a new account, browse
-for a TV show to watch, check into it, and begin playing games and chatting.
-That highly specific behavior has been stripped down for the purpose of
-clarity and concision.
-
+user", "chatterbug", etc.).
 
 Why Did You Build This?
 -----------------------
