@@ -6,6 +6,13 @@ this tool was used specifically for testing mobile application-to-remote-API int
 receivers would run various scripts that mimicked their user archetypes ("power
 user", "chatterbug", etc.).
 
+License
+-------
+
+PartyAnimal is released under the MIT License. Please refer to ./LICENSE.txt for
+full licensing information.
+
+
 Why Did You Build This?
 -----------------------
 
